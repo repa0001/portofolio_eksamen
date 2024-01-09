@@ -1,0 +1,150 @@
+@media screen and (max-width: 800px) {
+  /* forside */
+  .grid_1-1-1 {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr;
+    margin: 30px;
+  }
+
+  .grid_fm {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .grid_1-1 {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    margin-top: -200px;
+    margin-left: 1rem;
+  }
+
+  .grid_fm {
+    height: 420px;
+  }
+
+  .billede_tekst {
+    bottom: 1rem;
+  }
+
+  /*  portoflio */
+
+  .grid_1-1-1-1 {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr;
+    margin: 30px;
+  }
+
+  .portfolio_3 {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .tema_22,
+  .tema_32,
+  .tema_42,
+  .tema_52 {
+    margin-bottom: 12px;
+    margin-top: -30px;
+  }
+
+  /* om (alle) */
+
+  .pic1 {
+    display: none;
+  }
+
+  .grid_2-2-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+    margin-top: 45px;
+  }
+
+  .link,
+  .intro {
+    margin: 22px;
+    margin-bottom: 30px;
+  }
+
+  .uddybelse,
+  .uddybelse_3 {
+    margin-left: 23px;
+  }
+
+  /* cv */
+
+  .grid_3-3 {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px;
+  }
+
+  .cv,
+  .email,
+  .fods {
+    color: #ad2228;
+  }
+
+  .navn {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .cv_pic {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    max-width: 250px;
+    margin-left: 10rem;
+  }
+
+  .tekst_2,
+  .tekst_3 {
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 1;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+  .inspi_ux {
+    margin-top: 47px;
+    width: 400px;
+    margin-left: 25px;
+  }
+
+  .billede_tekst_2 {
+    margin-bottom: 6px;
+    margin-top: -10px;
+  }
+
+  .doku {
+    margin-left: 25px;
+  }
+
+  .freja_sofa {
+    width: 320px;
+  }
+
+  .bagerdygtig {
+    width: 330px;
+  }
+
+  .virksomhed {
+    margin-left: 55px;
+    margin-top: 49px;
+  }
+
+  /* * * * footer * * * */
+
+  .footer_grid {
+    gap: 1rem;
+  }
+
+  .footer1,
+  .footer2,
+  .footer3 {
+    margin-left: 5px;
+  }
+}
